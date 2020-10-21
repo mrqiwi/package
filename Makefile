@@ -2,7 +2,7 @@ CC = gcc
 
 .PHONY: clean
 
-hello: hello.c
+hello: main.c
 	$(CC) -o '$@' '$<'
 
 clean:
